@@ -7,10 +7,11 @@ body{
 
 .tarea{
   position: fixed;
+  scale: 2;
   top: 50%;
   left: auto;
   outline: solid 1px red;
-  font-size: 2rem;
+  font-size: auto;
   font-weight: bolder;
   color: white;
   overflow: hidden;
@@ -20,6 +21,7 @@ body{
   position: fixed;
   bottom: 10%;
   color: white;
-  font-size: 1rem;
+  scale: 1.1;
+  font-size: auto;
   font-weight: bolder;
 }
