@@ -3,15 +3,21 @@
   background: rgb(30,30,30);
 }
 
+body{
+  margin-top: -3px;
+  padding: 5px;
+}
+
 .txt{
+  display: block;
   user-select: none;
-  position: relative;
   margin-top: 10px;
   color: white;
   font-size: large;
   border: solid 1px white;
   border-radius: 10px;
   padding: 7px;
+  text-align: center;
 }
 
 .qtn{
@@ -20,9 +26,7 @@
 }
 
 img{
-  display: block;
-  margin: auto;
-  width: 50%;
+  block-size: 250px;
 }
 
 ::-webkit-scrollbar{
