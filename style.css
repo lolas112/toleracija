@@ -1,0 +1,43 @@
+:root{
+  display: flex;
+  background: rgb(30,30,30);
+}
+
+.txt{
+  user-select: none;
+  position: relative;
+  margin-top: 10px;
+  color: white;
+  font-size: large;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.qtn{
+  font-weight: bold;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgb(30, 30, 30);
+}
+
+::-webkit-scrollbar-thumb{
+  background: #ffffff8f;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #555;
+}
