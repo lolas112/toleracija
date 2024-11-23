@@ -4,6 +4,6 @@ addEventListener('load', (e) => {
   let imgElements = document.querySelectorAll('img');
   
   imgElements.forEach(elem => {
-    elem.style.blockSize = isMobileDevice ? '100px' : '250px';
+    elem.style.blockSize = isMobileDevice ? '150px' : '200px';
   });
 });
