@@ -1,14 +1,9 @@
 addEventListener('load', (e) => {
   let userAgent = navigator.userAgent;
-  let isWindowsLinuxMac = userAgent.includes('Windows') || userAgent.includes('Macintosh') || userAgent.includes('Linux');
-  let imgElements = Array.from(document.getElementsByTagName('img'));
-  if (isWindowsLinuxMac){
-    imgElements.forEach(elem => {
-      elem.style.blockSize = '250px';
-    });
-  } else {
-    imgElements.forEach(elem => {
-      elem.style.blockSize = '50px';
-    });
-  }
+  let isMobileDevice = /Mobi|Android|iPhone|iPad/i.test(userAgent);
+  let imgElements = document.querySelectorAll('img');
+  
+  imgElements.forEach(elem => {
+    elem.style.blockSize = isMobileDevice ? '100px' : '250px';
+  });
 });
