@@ -8,7 +8,7 @@ addEventListener('load', (e) => {
     });
   } else {
     imgElements.forEach(elem => {
-      elem.style.blockSize = '100px';
+      elem.style.blockSize = '50px';
     });
   }
 });
