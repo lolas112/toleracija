@@ -7,10 +7,12 @@ body{
   margin-top: -3px;
   padding: 5px;
 }
+img{
+  block-size: 250px;
+}
 
 .txt{
   display: block;
-  user-select: none;
   margin-top: 10px;
   color: white;
   font-size: large;
@@ -23,10 +25,6 @@ body{
 .qtn{
   font-weight: bold;
   text-align: center;
-}
-
-img{
-  block-size: 250px;
 }
 
 ::-webkit-scrollbar{
