@@ -3,6 +3,10 @@
   background: rgb(30,30,30);
 }
 
+img{
+  block-size: 150px;
+}
+
 body{
   margin-top: -3px;
   padding: 5px;
